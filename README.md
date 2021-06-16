@@ -8,8 +8,11 @@ If you want to run this code, please create a directory named Data and make sure
 ```
 Data/
     test
+    
     train
+    
     val
+    
     labels/                         labels for train , val
         train
         val
