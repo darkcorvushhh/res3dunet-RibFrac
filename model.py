@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jun  1 12:29:53 2021
-
-@author: LEGION
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Wed Apr 14 15:54:13 2021
 
 @author: LEGION
@@ -279,11 +272,3 @@ class resunet3d(nn.Module):
             return output4
         else:
             return output4
-
-#与3Dunet相比核心就是在每个encoder阶段构造一个残差块，在decoder阶段加上dropout，同时conv+bn+relu作为一个卷积块，提高收敛速度
-#output(B*C*D*H*W)
-
-# model = resunet3d(training = True)
-# from torchsummary import summary
-# summary(model, input_size=[(1, 64 , 64 , 64)], device="cpu")
-# loss用la dice+ce
