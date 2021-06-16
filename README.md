@@ -1,5 +1,4 @@
 # res3dunet-RibFrac
-mechine learning project
 
 This is for mechine learning project.
 
