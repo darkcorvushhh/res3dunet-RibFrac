@@ -7,22 +7,22 @@ If you want to run this code, please create a directory named Data and make sure
 ```
 Data/
     test/
-    RibFrac501.nii.gz
-    RibFrac502.nii.gz
-    ...
-    RibFrac660.nii.gz
+        RibFrac501.nii.gz
+        RibFrac502.nii.gz
+        ...
+        RibFrac660.nii.gz
     
     train/
-    RibFrac1.nii.gz
-    RibFrac2.nii.gz
-    ...
-    RibFrac420.nii.gz
+        RibFrac1.nii.gz
+        RibFrac2.nii.gz
+        ...
+        RibFrac420.nii.gz
     
     val/
-    RibFrac421.nii.gz
-    RibFrac422.nii.gz
-    ...
-    RibFrac500.nii.gz
+        RibFrac421.nii.gz
+        RibFrac422.nii.gz
+        ...
+        RibFrac500.nii.gz
     
     labels/                         labels for train , val
         train
